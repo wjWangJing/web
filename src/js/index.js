@@ -18,6 +18,12 @@ import ComponentFooter from "./components/footer";
  * 创建入口组件
  * */
 class Index  extends React.Component{
+    componentWillMount (){
+        console.log("loading-start")
+    }
+    componentDidMount (){
+        console.log("loading-end")
+    }
     render (){
         return (
             <div>
