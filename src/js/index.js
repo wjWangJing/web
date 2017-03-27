@@ -1,7 +1,37 @@
 const React = require("react");
 const ReactDOM = require("react-dom");
 
+/*
+* 导入网站头部组件
+* */
+import ComponentHeader from "./components/header";
+/*
+ * 导入网站主体部分组件
+ * */
+import ComponentMain   from "./components/main";
+/*
+ * 导入网站底部组件
+ * */
+import ComponentFooter from "./components/footer";
+
+/*
+ * 创建入口组件
+ * */
+class Index  extends React.Component{
+    render (){
+        return (
+            <div>
+                <ComponentHeader />
+                <ComponentMain />
+                <ComponentFooter />
+            </div>
+        )
+    }
+}
+/*
+ * 在页面中渲染所有组件
+ * */
 ReactDOM.render(
-    <h1>hello world!</h1>,
+    <Index />,
     document.getElementById("content")
 );

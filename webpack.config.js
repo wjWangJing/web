@@ -18,9 +18,8 @@ module.exports = {
         path: __dirname + "/src/js",
         filename: "bundle.js"
     },
-    devServer : {
-        inline:true,
-        hot: true,
-        progress :true
-    }
+    devServer: {
+        historyApiFallback: true,
+        inline: true
+    },
 };
