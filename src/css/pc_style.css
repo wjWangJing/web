@@ -1,0 +1,163 @@
+.pc_index header{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.pc_index header .header-top-nav li{
+    line-height: 66px;
+    font-size: 18px;
+}
+.pc_index header .header-top-nav .logo{
+    font-size: 32px;
+}
+.pc_index header .search{
+    position: absolute;
+    left: 700px;
+    top: 19px;
+    width: 40%;
+}
+.pc_index header .search>span{
+    width:200px;
+    margin-right:20px;
+}
+.pc_index header .header-bottom-nav{
+    padding-left:165px;
+}
+.pc_index header .header-bottom-nav li{
+    font-size: 14px;
+}
+.pc_index footer{
+    color: #999;
+    background-color: #333;
+    padding:30px 0;
+}
+.pc_index footer p{
+    text-align: center;
+    line-height: 30px;
+}
+
+/*new_sing*/
+.pc_index .new-sing .ant-carousel .slick-slide {
+    text-align: center;
+    height:100%;
+    color: #fff;
+}
+.pc_index .new-sing{
+    height:710px;
+    background-size: cover;
+}
+.pc_index .new-sing>div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pc_index .new-sing .new-title{
+    text-align: center;
+    position: relative;
+    color:#fff;
+    padding-top: 80px;
+    width:490px;
+}
+.pc_index .new-sing .new-title h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+.pc_index .new-sing .new-title .new-line{
+    position: absolute;
+    top: 114px;
+    width: 72px;
+    height: 1px;
+    opacity: .5;
+    background: #fff;
+}
+.pc_index .ant-tabs-bar{
+    border-bottom: none;
+}
+.pc_index .ant-tabs-nav .ant-tabs-tab:hover{
+    color: #fff;
+}
+.pc_index .ant-tabs-nav .ant-tabs-tab{
+    color:#fff;
+    opacity: .5;
+}
+.pc_index .ant-tabs-nav .ant-tabs-tab-active {
+    color: #fff;
+    opacity: 1;
+}
+.pc_index .ant-tabs-ink-bar{
+    opacity: 0;
+}
+
+.pc_index .new-sing .new-title .new-line-left{
+    left:0;
+}
+.pc_index .new-sing .new-title .new-line-right{
+    right:0;
+}
+.pc_index .pic-box{
+    float: left;
+    width:25%;
+    margin-bottom: 50px;
+}
+.pc_index .pic-box img{
+    width:100%;
+}
+.pc_index .pic-box h4{
+    width:100%;
+    text-align: center;
+    color:#fff;
+    padding-top:30px;
+    font-size: 18px;
+    background: #000;
+}
+.pc_index .pic-box p{
+    width:100%;
+    text-align: center;
+    color:#999;
+    padding-bottom: 30px;
+    font-size: 18px;
+    background: #000;
+}
+/*hot_sing*/
+.pc_index .hot-sing{
+    margin-bottom: 50px;
+}
+.pc_index .hot-sing>div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pc_index .hot-sing .ant-carousel .slick-slide {
+    text-align: center;
+    height:100%;
+    color: #333;
+}
+.pc_index .hot-sing .hot-title{
+    text-align: center;
+    position: relative;
+    color:#333;
+    padding-top: 80px;
+    width:490px;
+    margin-bottom:50px;
+}
+.pc_index .hot-sing .hot-title h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+.pc_index .hot-sing .hot-title .hot-line{
+    position: absolute;
+    top: 114px;
+    width: 72px;
+    height: 1px;
+    opacity: .5;
+    background: #999;
+}
+.pc_index .hot-sing .hot-title .hot-line-left{
+    left:0;
+}
+.pc_index .hot-sing .hot-title .hot-line-right{
+    right:0;
+}
+.pc_index .hot-sing .ant-carousel .slick-dots li.slick-active button{
+    background: #151515;
+}
+.pc_index .hot-sing .ant-carousel .slick-dots li button{
+    background: #151515;
+}
